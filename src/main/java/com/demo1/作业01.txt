@@ -1,0 +1,5 @@
+①将项目中的某个bean的某个属性改为枚举类型，实现数据库的读写和页面展示
+②研究ssm框架和springcloud微服务框架中都哪些地方用到了反射，并进行总结
+ ssm用到反射的地方：
+ spring.xml配置的bean-->转化为对象，mybatis的resultMap映射
+ spring通过反射帮助我们实例化对象，并把它们放到容器
